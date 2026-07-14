@@ -2,7 +2,7 @@
 
 Stream Sleuth is a Windows tool for finding, inspecting, and cleaning up NTFS alternate data streams (ADS). I built it because ADS are one of those NTFS features that most people never see, but that show up constantly in malware analysis, incident response, and "why is this file bigger than it should be" investigations. Explorer won't show them to you, `dir` won't show them to you by default, and most antivirus products only look at a fraction of them. Stream Sleuth exists to make them visible.
 
-![image-20260714214625548](C:\mygit\stream-sleuth\stream-sleuth.png)
+![stream-sleuth.png](stream-sleuth.png)
 
 This README covers what NTFS streams actually are, how Stream Sleuth finds them, and why you'd want a tool like this in the first place.
 
